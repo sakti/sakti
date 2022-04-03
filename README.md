@@ -1,6 +1,7 @@
 ### Hi there 👋
 
-![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2Fsakti)
+![](https://mir-s3-cdn-cf.behance.net/project_modules/disp/7df0bd42774743.57ee5f32bd76e.gif)
+
 
 <!--
 **sakti/sakti** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
