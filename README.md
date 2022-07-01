@@ -1,7 +1,7 @@
 ### Hi there 👋
 
 <a href="https://saktidwicahyono.name">
-  <img align="center" width="100%" src="./github-metrics.svg" />
+  <img align="center" width="55%" src="./github-metrics.svg" />
 </a>
 <br/>
 
