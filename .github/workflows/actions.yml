@@ -21,6 +21,3 @@ jobs:
       with:
         commit_message: Update README
         file_pattern: README.md
-        commit_user_name: GitHub Action
-        commit_user_email: actions@github.com
-        commit_author: GitHub Action <actions@github.com>
