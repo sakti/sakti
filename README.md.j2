@@ -1,7 +1,7 @@
 # Hi there 👋
 
 
-![](https://storager2.saktidwicahyono.name/ferris.gif)
+![](https://storager2.saktidwicahyono.name/ferris-wave.gif)
 
 ## Recent posts
 
