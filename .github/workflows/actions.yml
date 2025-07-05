@@ -3,21 +3,19 @@ on:
   # Schedule updates (daily)
   # schedule: [{cron: "0 0 * * *"}]
   workflow_dispatch:
-  push: {branches: ["master", "main"]}
+  push: { branches: ["master", "main"] }
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
-    - name: Install the latest version of rye
-      uses: eifinger/setup-rye@v3
-    - name: Sync
-      run: rye sync
-    - name: Run
-      run: rye run sakti
-    - name: Commit changes
-      uses: stefanzweifel/git-auto-commit-action@v5
-      with:
-        commit_message: Update README
-        file_pattern: README.md
+      - uses: actions/checkout@v4
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+      - name: Run
+        run: uv run src/sakti/generate.py
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update README
+          file_pattern: README.md

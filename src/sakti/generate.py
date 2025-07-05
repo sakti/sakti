@@ -1,3 +1,10 @@
+# /// script
+# requires-python = ">=3.12"
+# dependencies = [
+#     "jinja2",
+#     "requests",
+# ]
+# ///
 from pathlib import Path
 import jinja2
 import requests
