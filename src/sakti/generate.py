@@ -26,3 +26,6 @@ def main() -> int:
     OUTPUT_FILE.write_text(new_readme)
 
     return 0
+
+if __name__ == "__main__":
+    main()
